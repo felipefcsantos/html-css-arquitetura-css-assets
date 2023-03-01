@@ -1,0 +1,15 @@
+.menu__link{
+    color: #808080; /*cor da fonte*/
+    margin-right: 1.25rem; /*espaço entre os itens da lista*/
+    text-decoration: none; /*tirar linha de link embaixo da palavra*/
+    text-transform: lowercase; /*deixar tudo minusculo*/
+}
+
+.menu__link.ativo{
+    color: #333333;
+    font-weight: bold; /*deixar fonte negrito*/
+}
+
+.menu__link:hover/*acontecer algo assim que passar o mouse em cima*/{
+    text-decoration: underline;/*deixar o texto com underline embaixo*/
+}
